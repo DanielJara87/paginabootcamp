@@ -1,0 +1,64 @@
+
+
+.corTexto{
+    color: aliceblue;
+}
+
+body{
+    
+margin: 0px;
+margin-left: 0.01%;
+margin-right: 0.010%;
+background-color: rgb(246, 248, 250);
+
+}
+.menuNavegacao{
+    width:auto ;
+    height:103px ;
+   background-color: #303030;
+  
+    
+    text-align: left;
+    display: flex;
+    position: relative;
+    align-items: center;
+  justify-content: space-between;
+    
+
+}
+.menuNavegacao a{
+font-size: 20px;
+color: aliceblue;
+
+margin: 2px;
+text-decoration: none;
+padding: 5px;
+}
+
+.menuNavegacao button{
+  
+    margin: 0px;
+   
+   
+    background-color: #0C70F2;
+    width:80px ;
+    height: 39px;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    
+    
+ 
+}
+#opcoes{
+   
+    min-width: fit-content;
+    width:auto  ;
+    height: 39px;
+}
+#botao{
+  
+    margin-right: 5%;
+
+
+}
