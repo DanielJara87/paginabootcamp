@@ -7,13 +7,16 @@
 }
 
 body{
-    
-margin: 0px;
-margin-left: 0.01%;
-margin-right: 0.010%;
-background-color: rgb(246, 248, 250);
+        
+    margin: 0px;
+    margin-left: 0.01%;
+    margin-right: 0.01%;
+
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),linear-gradient(0deg, #303030, #303030),linear-gradient(0deg, #BABABA, #BABABA);
+    background-repeat: no-repeat;
 
 }
+
 .menuNavegacao{
     width:auto ;
     height:100px ;
@@ -46,7 +49,7 @@ color: aliceblue;
    
    
     background-color: #0C70F2;
-    width:80px ;
+    width:110px ;
     height: 39px;
     border: none;
     border-radius: 5px;
@@ -63,6 +66,108 @@ color: aliceblue;
     height: 39px;
     margin-left: 2%;
 }
-#botao{
+#botao{/*uma div para tratar o botao .. usado para nao bagunçar tanto quando minimizado a pagina no extremo*/
       margin-right: 5%;
 }
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descritivo{
+    text-align: center;
+    font-size: 40px;
+   
+}
+.GrupoForm{/*grupode div dentro do form*/
+    
+   
+    flex-direction: column;
+    text-align: left;
+    width: 630px;
+    font-family: 'inter';
+    
+}
+.GrupoForm input{
+    
+   
+    width: 100%;
+    height: 56px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+button{
+    margin-top: 10%;
+    width: 630px;
+    height: 56px;
+    background-color:  #0C70F2E5;
+    border-radius: 10px;
+    font-size: 32px;
+    color: #FFFFFF;
+    
+    
+}
+
+footer{
+    
+    width:auto;
+    height:520px;
+    background-color: #0C70F2E5;
+    margin-top: 10%;
+    color: #FFFFFF;
+
+
+}
+form{
+    margin-top: 10%;
+}
+.rodape{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+
+}
+.colunasRodape{
+  
+    font-size: 25px;
+    font-family: 'inter';
+    width: auto;
+    height: fit-content;
+    padding: 2%;
+    
+   
+}
+.colunasRodape a{
+     text-decoration: none;   
+    color: #FFFFFF; 
+
+}
+.colunasRodape li{
+   list-style-type: none;
+}
+.colunasRodape h1{
+    padding: 10px;
+    width: max-content;
+    color: #FFFFFF;
+    background-color: #303030;
+ }
+
+.termos{
+  font-size: 25px;
+  padding: 10px;
+  background-color: #0C70F2;
+ 
+  text-align: center;
+  font-size: 25px;
+  font-family: 'inter';
+  color: #FFFFFF;
+
+}
+
