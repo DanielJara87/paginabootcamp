@@ -131,20 +131,22 @@ button{
 
 footer{
     
-    width:auto;
+    width:100%;
     height:520px;
     background-color: #0C70F2E5;
     margin-top: 10%;
     color: #FFFFFF;
-
+    
 
 }
 
 .rodape{
     display: flex;
-    align-items: center;
+    
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
    
 
 }
@@ -152,9 +154,11 @@ footer{
   
     font-size: 25px;
     font-family: 'inter';
-    width: auto;
-    height: fit-content;
-    padding: 2%;
+    width: max-content;
+    height: 60%;
+    margin-left: 5%;
+    padding-right: 10px;
+
     
    
 }
@@ -167,10 +171,12 @@ footer{
    list-style-type: none;
 }
 .colunasRodape h1{
-    padding: 10px;
-    width: max-content;
+    
+    width: 100%;
+    text-align: center;
     color: #FFFFFF;
     background-color: #303030;
+   
  }
 
 .termos{
@@ -182,25 +188,14 @@ footer{
   font-size: 25px;
   font-family: 'inter';
   color: #FFFFFF;
+ 
+  
 
 }
 
 
 
-.Cbox{
-    border: solid 1px rgb(24, 206, 54);
-    width: 100%;
-    height: 100px;
-    margin: 10px;
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 36px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    
-}
+
 
 
 .pai{
