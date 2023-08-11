@@ -14,7 +14,7 @@ body{
 
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),linear-gradient(0deg, #303030, #303030),linear-gradient(0deg, #BABABA, #BABABA);
     background-repeat: no-repeat;
-
+   
 }
 
 .menuNavegacao{
@@ -27,7 +27,7 @@ body{
     display: flex;
     position: relative;
     align-items: center;
-  justify-content: space-between;
+    justify-content: space-between;
     
 
 }
@@ -73,6 +73,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 .descritivo{
     text-align: center;
@@ -83,15 +84,16 @@ section{
 .descritivo span{
     background-color: #303030;
 }
-.GrupoForm{/*grupode div dentro do form*/
+.GrupoForm{/*grupo de div dentro do form*/
     
-   
-    flex-direction: column;
+    
+    
     text-align: left;
     width: 630px;
     font-family: 'inter';
     
 }
+
 .GrupoForm input{
     
    
@@ -102,6 +104,7 @@ section{
     margin-bottom: 10px;
     
 }
+
 .GrupoForm input::placeholder{
     
    font-family: 'inter';
@@ -125,6 +128,7 @@ button{
     
 }
 
+
 footer{
     
     width:auto;
@@ -135,15 +139,13 @@ footer{
 
 
 }
-form{
-    margin-top: 10%;
-}
+
 .rodape{
     display: flex;
     align-items: center;
     width: 100%;
     height: 100%;
-    justify-content: space-between;
+   
 
 }
 .colunasRodape{
@@ -183,20 +185,72 @@ form{
 
 }
 
-.CBox{/*div de conteiner para os label e checkbox*/
 
-    border: solid 1px rgb(0, 255, 157);
-     display: flex;
-   
-}
-.CBox div{
+
+.Cbox{
+    border: solid 1px rgb(24, 206, 54);
+    width: 100%;
+    height: 100px;
+    margin: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
     display: flex;
+    flex-direction: column;
+    position: relative;
+    
 }
-.CBox label{
-font-size: 26px;    
-border: solid 1px red;
-padding: 20px;
+
+
+.pai{
+    display: block;
+
+    
+    width: 630px;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
 }
-.CBox font{
-   margin: 0;
+
+#filho{
+    
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    text-align: left;
+
 }
+
+.tituloPai{
+    font-family: 'inter';
+    margin-bottom: 10px;
+    font-size: 36px;
+    text-align: left;
+    
+}
+
+#filho input[type="checkbox"]{
+margin-right: 20px;
+margin-left: 20px;
+width: 30px;
+height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
