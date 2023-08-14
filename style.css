@@ -1,16 +1,19 @@
-.fonteGeral{
-    font-family: inter;
-}
 
-.corTexto{
-    color: aliceblue;
+
+:root{
+        --fonteInter: 'inter';
+        --corTexto: aliceblue; 
+        --corMenu: #303030;
+        --corHover: #797575;
+        --corAzulDNC: #0C70F2E5;
 }
+    
+
+
 
 body{
         
     margin: 0px;
-    margin-left: 0.01%;
-    margin-right: 0.01%;
 
     background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%),linear-gradient(0deg, #303030, #303030),linear-gradient(0deg, #BABABA, #BABABA);
     background-repeat: no-repeat;
@@ -20,7 +23,7 @@ body{
 .menuNavegacao{
     width:auto ;
     height:100px ;
-   background-color: #303030;
+   background-color: var(--corMenu);
   
     
     text-align: left;
@@ -28,7 +31,7 @@ body{
     position: relative;
     align-items: center;
     justify-content: space-between;
-    
+   
 
 }
 .menuNavegacao a{
@@ -36,11 +39,11 @@ font-size: 25px;
 margin: 2px;
 text-decoration: none;
 padding: 5px;
-color: aliceblue;
+color: var(--corTexto)
 
 }
 .menuNavegacao a:hover{
-    color: #797575;
+    color:var(--corHover) ;
 }
 
 .menuNavegacao button{
@@ -78,6 +81,8 @@ section{
 .descritivo{
     text-align: center;
     font-size: 40px;
+    color:var(--corTexto);
+    font-family: var(--fonteInter);
     
    
 }
@@ -118,7 +123,7 @@ section{
     
    font-family: 'inter';
    font-size: 25px;
-   color: #8f8888;
+   color: var(--corHover);
    padding-left: 3%;
     
 }
@@ -129,7 +134,8 @@ button{
     margin-top: 10%;
     width: 630px;
     height: 56px;
-    background-color:  #0C70F2E5;
+    background-color: var(--corAzulDNC);
+    border: none;
     border-radius: 10px;
     font-size: 32px;
     color: #FFFFFF;
@@ -142,9 +148,9 @@ footer{
     
     width:100%;
     height:520px;
-    background-color: #0C70F2E5;
+    background-color: var(--corAzulDNC);
     margin-top: 10%;
-    color: #FFFFFF;
+    color:var(--corTexto);
     
 
 }
@@ -173,8 +179,11 @@ footer{
 }
 .colunasRodape a{
      text-decoration: none;   
-    color: #FFFFFF; 
+     color:var(--corTexto);
 
+}
+.colunasRodape a:hover{
+    color: var(--corHover);
 }
 .colunasRodape li{
    list-style-type: none;
@@ -191,16 +200,25 @@ footer{
 .termos{
   font-size: 25px;
   padding: 10px;
-  background-color: #0C70F2;
+  background-color: var(--corAzulDNC);
  
   text-align: center;
   font-size: 25px;
-  font-family: 'inter';
-  color: #FFFFFF;
- 
   
+ 
+ 
+}
+.termos a{
+        text-decoration: none;
+        margin: 2px;
+        font-family: var(--fonteInter);
+        color: var(--corTexto);
 
 }
+.termos a:hover{
+    color: var(--corHover);
+}
+
 
 
 
@@ -244,6 +262,12 @@ height: 30px;
 }
 
 
+@media screen and (max-width:400) {
+
+  
+    
+} 
+    
 
 
 
