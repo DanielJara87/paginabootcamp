@@ -407,6 +407,7 @@ height: 30px;
         display: block;
         justify-content: center;
         padding: 0px;
+        padding-top: 10px;
     }
 
 
@@ -423,6 +424,13 @@ height: 30px;
         margin: 2px;
         font-size: 20px;
        
+    }
+    footer .colunasRodape p{
+        font-size: 15px;
+    }
+    footer .termos{
+
+         font-size: 15px;
     }
 
 } 
