@@ -393,14 +393,14 @@ height: 30px;
          
     }
     footer{
-        border: solid 1px #b11f1f;
+        
         width: 410px;
         height: min-content;
         margin: 10px 0px 10px 0px;
 
     }
     footer .rodape{
-        border: solid 5px green;
+       
         width: 90%;
          
         margin: 15px;
@@ -411,7 +411,7 @@ height: 30px;
 
 
     footer .colunasRodape{
-        border: solid 1px red;
+        
         font-size: 20px;
         width: 98%;
         height: min-content;
