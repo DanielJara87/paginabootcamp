@@ -23,14 +23,15 @@ body{
 .menuNavegacao{
     width:auto ;
     height:100px ;
-   background-color: var(--corMenu);
+    background-color: var(--corMenu);
   
     
-    text-align: left;
+    
     display: flex;
     position: relative;
     align-items: center;
     justify-content: space-between;
+   
    
 
 }
@@ -49,9 +50,7 @@ color: var(--corTexto)
 .menuNavegacao button{
   
     margin: 0px;
-   
-   
-    background-color: #0C70F2;
+    background-color: var(--corAzulDNC);
     width:110px ;
     height: 39px;
     border: none;
@@ -63,9 +62,8 @@ color: var(--corTexto)
  
 }
 #opcoes{/*div que aloca as opçoes*/
-   
-    min-width: fit-content;
-    width:auto  ;
+    
+    width:100%  ;
     height: 39px;
     margin-left: 2%;
 }
@@ -88,6 +86,11 @@ section{
 }
 .descritivo span{
     background-color: #303030;
+}
+.descritivo h1{
+
+    margin-top: 10%;
+    
 }
 .GrupoForm{/*grupo de div dentro do form*/
     
@@ -137,8 +140,8 @@ button{
     background-color: var(--corAzulDNC);
     border: none;
     border-radius: 10px;
-    font-size: 32px;
-    color: #FFFFFF;
+    font-size: 25px;
+    color:var(--corTexto);
     
     
 }
@@ -219,12 +222,6 @@ footer{
     color: var(--corHover);
 }
 
-
-
-
-
-
-
 .pai{
     display: block;
 
@@ -262,11 +259,175 @@ height: 30px;
 }
 
 
-@media screen and (max-width:400) {
 
-  
+
+
+@media screen and (max-width:500px) {
+
+    .menuNavegacao{
+        display: block;
+        width:100% ;
+        height:100%;
+        padding-bottom: 15px;
+        
+    }
+    #opcoes{/*div que aloca as opçoes*/
+        display: grid;
+        align-items: center;
+        width:auto  ;
+        height: 150px;
+        margin: 2px 2px 0px 2px
     
+    }
+    #opcoes a{
+        text-align: center;
+    }
+       
+    #botao{
+       
+        margin: 0px;
+        width: 100%;
+        
+        margin-top: 20px;
+    }
+    #botao button{
+       
+        width: 95%;
+        margin-left: 10px;
+        height: 30px;
+        background-color: var(--corAzulDNC);
+        border: none;
+        border-radius: 10px;
+        font-size: 25px;
+        
+        
+         
+    }
+
+    .descritivo h1{
+        margin:10px 5px 0px 5px ;
+        
+        
+     
+        
+    }
+    .descritivo p{
+
+        margin:10px 5px 0px 5px ;
+        padding: 0px 2px 0px 2px;
+        font-size: 0.5em;
+        
+    }
+    .descritivo{
+        width: 100dvw;
+
+    }
+
+
+
+    .GrupoForm{/*grupo de div dentro do form*/
+    
+    
+        
+        text-align: left;
+        width: 95%;
+        font-family: 'inter';
+        margin: 10px 5px 0px 10px;
+       
+        
+    }
+    .GrupoForm input{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .GrupoForm label{
+        font-size: 25px;
+    }
+    
+    .pai{
+        display: grid;
+       
+       
+        width: max-content;
+        height: 100px;
+        margin-left: 10px;
+        
+       
+
+    
+       
+    }
+    #filho{
+        
+         width: 100%;
+         height: max-content;
+         font-size: 20px;
+         margin: 0px;
+    }
+
+    .tituloPai{
+  
+        
+        
+        text-align: left;
+        font-size: 25px;
+        height: fit-content;
+        margin: 0px;
+        padding-left: 5px;
+        
+    }
+    #filho input[type="checkbox"]{
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        
+    }
+
+    button{
+             
+            width: 95%;
+            height: 56px;
+            font-size: 20px;
+         
+    }
+    footer{
+        border: solid 1px #b11f1f;
+        width: 410px;
+        height: min-content;
+        margin: 10px 0px 10px 0px;
+
+    }
+    footer .rodape{
+        border: solid 5px green;
+        width: 90%;
+         
+        margin: 15px;
+        display: block;
+        justify-content: center;
+        padding: 0px;
+    }
+
+
+    footer .colunasRodape{
+        border: solid 1px red;
+        font-size: 20px;
+        width: 98%;
+        height: min-content;
+        margin: 0px;
+        
+    }
+    footer .colunasRodape h1{
+        
+        margin: 2px;
+        font-size: 20px;
+       
+    }
+
 } 
+
+
     
 
 
